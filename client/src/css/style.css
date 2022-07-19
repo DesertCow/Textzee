@@ -1,11 +1,11 @@
 /* app shell CSS */
 :root {
-  --primary: #31a9e1;
+  --primary: #30638E;
   --gray: #ececec;
   --whitesmoke: #f5f5f5;
   --dark: #222;
   --monoaki: #272822;
-  --navbar-height: 50px;
+  --navbar-height: 100px;
 }
 
 body {
@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-  font-size: 22px;
+  font-size: 55px;
 }
 
 #navbar {
@@ -28,9 +28,10 @@ h1 {
   align-items: center;
   justify-content: space-between;
   color: white;
-  font-size: 22px;
-  font-weight: 550;
-  letter-spacing: 0.9px;
+  /* font-size: 55px; */
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  font-family: 'Bungee Shade', cursive;
 }
 
 .navbar-brand img {
@@ -66,6 +67,15 @@ h1 {
   }
 }
 
+.installBtn {
+  font-size: 35px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
 .app-update {
   display: none;
   position: absolute;
@@ -83,11 +93,12 @@ h1 {
 .btn {
   text-align: center;
   display: inline-block;
-  padding: 0.5rem 1.2rem;
-  margin: 0;
+  /* padding: 0.5rem 1.2rem; */
+  margin: 25px;
+  /* padding: 15px; */
   text-decoration: none;
-  font-size: 1rem;
-  border-radius: 0.3rem;
+  /* font-size: 1rem; */
+  /* border-radius: 0.3rem; */
   border: 1px solid transparent;
   outline: none;
   color: #1a1a1a;
@@ -105,8 +116,8 @@ h1 {
 }
 
 .btn.btn-sm {
-  font-size: 0.85rem;
-  padding: 0.3rem 0.9rem;
+  /* font-size: 0.85rem; */
+  /* padding: 0.3rem 0.9rem; */
 }
 
 .btn.btn-lg {
@@ -208,4 +219,6 @@ h1 {
   h1 {
     font-size: 18px;
   }
+
+
 }
